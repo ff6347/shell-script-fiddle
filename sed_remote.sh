@@ -1,0 +1,1 @@
+git remote show origin | sed -ne 's/Fetch URL://' -e '2p'
